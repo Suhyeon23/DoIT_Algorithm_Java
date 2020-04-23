@@ -2,12 +2,15 @@ package day3;
 import java.util.Scanner;
 // 선형 검색(보초법)
 // + while문을 for문으로 수정
+// 스캐닝 과정 출력
 
 class day3_2 {
 	// 요솟수가 n인 배열 a에서 key와 같은 요소를 보초법으로 선형 검색합니다.
 	static int seqSearchSen(int[] a, int n, int key) {
 		int i = 0;
 		a[n] = key;					// 보초를 추가
+		
+		//스캐닝 과정 출력
 		String empty = "  | ";
 		for( ; ; ) {
 			System.out.println(empty+"*");
