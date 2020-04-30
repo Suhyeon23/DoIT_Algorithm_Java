@@ -1,5 +1,5 @@
 package day4;
-// int형 스택
+// int형 스택 
 
 public class IntStack {
 	private int max;			// 스택 용량
