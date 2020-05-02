@@ -1,7 +1,7 @@
 package day4;
 // int형 스택
 
-public class day4_2 {
+public class day4_2<E> {
 	private int max;	// 스택 용량
 	private int ptr;	// 스택 포인터
 	private E[] stk;	// 스택 본체
