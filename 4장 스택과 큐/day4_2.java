@@ -25,7 +25,7 @@ public class day4_2<E> {
 		try {
 			stk = (E[]) new Object[max];	// 스택 본체용 배열을 생성
 		} catch (OutOfMemoryError e) {	// 생성할 수 없습니다.
-			max = 0;
+			max = 0; 
 		}
 	}
 	
